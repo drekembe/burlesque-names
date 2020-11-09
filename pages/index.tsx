@@ -163,7 +163,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image src="/logo.png" width={460} height={265} alt="glam squad burlesque" />
+        <img src="/logo.png" width={460} height={265} alt="glam squad burlesque" />
         <button className={styles.btn} onClick={selectName}>Who am I?</button>
         {name &&
           <div className={styles.name}>{name.first} {name.last}</div>
